@@ -1,0 +1,28 @@
+# Secrets
+api/config.php
+.env
+.env.*
+!.env.example
+
+# Hosting-specific configuration
+.user.ini
+php.ini
+
+# Logs and database exports
+*.log
+*.sql
+*.dump
+
+# Dependencies and generated files
+vendor/
+node_modules/
+
+# Operating-system metadata
+.DS_Store
+__MACOSX/
+._*
+
+# Editor files
+.idea/
+.vscode/
+*.swp
